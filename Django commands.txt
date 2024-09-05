@@ -1,0 +1,25 @@
+python -m django --version
+
+django-admin startproject Hello 
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is the test page</title>
+</head>
+<body>
+    Welcome to this Website.
+    variable value is <b>{{variable1}}</b>
+    variable value is <b>{{variable2}}</b>
+    <p>
+        Hope you are Well.
+    </p>
+</body>
+</html>
